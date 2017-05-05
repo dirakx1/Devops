@@ -4,7 +4,7 @@
 * vagrant
 * nagios
 * zabbix
-* {Rabbitmq]((https://github.com/dirakx/Rabbitmq))
+* {Rabbitmq](https://github.com/dirakx/Rabbitmq)
 * redis
 * ansible
 * chef
