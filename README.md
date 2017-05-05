@@ -4,14 +4,14 @@
 * vagrant
 * nagios
 * zabbix
-* rabbitmq
+* {Rabbitmq]((https://github.com/dirakx/Rabbitmq))
 * redis
 * ansible
 * chef
 * puppet
 * log management
 * [Docker](https://github.com/dirakx/Docker)
-* postgres
+* [Postgres](https://github.com/dirakx/Postgres)
 * mysql
 
 
