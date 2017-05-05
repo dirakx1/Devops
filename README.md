@@ -10,7 +10,7 @@
 * chef
 * puppet
 * log management
-* [[dirakx/docker]]
+* [Docker](#dirakx/Docker)
 * postgres
 * mysql
 
