@@ -1,18 +1,18 @@
 # Devops tools 
 
-* jenkins
-* vagrant
-* nagios
-* zabbix
+* Jenkins
+* Vagrant
+* Nagios
+* Zabbix
 * [Rabbitmq](https://github.com/dirakx/Rabbitmq)
-* redis
-* ansible
-* chef
-* puppet
-* log management
+* Redis
+* Ansible
+* Chef
+* Puppet
+* Log management
 * [Docker](https://github.com/dirakx/Docker)
 * [Postgres](https://github.com/dirakx/Postgres)
-* mysql
+* Mysql
 * [Git](https://github.com/dirakx/Git)
 
 
