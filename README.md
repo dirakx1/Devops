@@ -3,6 +3,8 @@
 * Jenkins
 * Vagrant
 * Nagios
+* Nginx
+* Apache
 * Zabbix
 * [Rabbitmq](https://github.com/dirakx/Rabbitmq)
 * Redis
