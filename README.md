@@ -1,5 +1,6 @@
 # Devops tools 
 
+* Aws
 * Jenkins
 * Vagrant
 * Nagios
