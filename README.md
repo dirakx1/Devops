@@ -27,7 +27,7 @@ DevOps is a software development method that stresses communication, collaborati
 * [Docker](https://github.com/dirakx/Docker)
 * [Postgres](https://github.com/dirakx/Postgres)
 * Mysql
-* [Git](https://github.com/dirakx/Git)
+* [Git(Gitlab/Github)](https://github.com/dirakx/Git)
 * [MSSQL](https://github.com/dirakx/Mssql)
 * [Celery](https://github.com/dirakx/Celery)
 
