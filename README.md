@@ -10,27 +10,36 @@ DevOps is a software development method that stresses communication, collaborati
 
 
 ## Devops tools 
-
-* Aws
+* AWS
+## CI/CD
 * Jenkins
 * Vagrant
-* Nagios
+### Web servers
 * Nginx
 * Apache
+## Monitoring
+* Nagios
 * Zabbix
+### Task/Queue message maangement
 * [Rabbitmq](https://github.com/dirakx/Rabbitmq)
 * Redis
+* [Celery](https://github.com/dirakx/Celery)
+### Orchestration
 * Ansible
 * Chef
 * Puppet
-* Log management
+### Log management
+### Containerization
 * [Docker](https://github.com/dirakx/Docker)
+### Databases
 * [Postgres](https://github.com/dirakx/Postgres)
 * Mysql
-* [Git(Gitlab/Github)](https://github.com/dirakx/Git)
 * [MSSQL](https://github.com/dirakx/Mssql)
-* [Celery](https://github.com/dirakx/Celery)
 * [Mongodb](https://github.com/dirakx/Mongodb)
+### Version control
+* [Git(Gitlab/Github)](https://github.com/dirakx/Git)
+
+
  
 
 
