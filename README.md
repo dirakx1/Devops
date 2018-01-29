@@ -10,17 +10,21 @@ DevOps is a software development method that stresses communication, collaborati
 
 
 ## Devops tools 
+### Platforms
 * AWS
+* Openstack
+
 ## CI/CD
 * Jenkins
 * Vagrant
+
 ### Web servers
 * Nginx
 * Apache
 ## Monitoring
 * Nagios
 * Zabbix
-### Task/Queue message maangement
+### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx/Rabbitmq)
 * Redis
 * [Celery](https://github.com/dirakx/Celery)
