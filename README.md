@@ -16,6 +16,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ## CI/CD
 * Jenkins
+* Gitlab/Github pipelines
 * Vagrant
 
 ### Web servers
