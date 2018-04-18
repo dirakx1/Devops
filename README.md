@@ -24,9 +24,9 @@ DevOps is a software development method that stresses communication, collaborati
 * Apache
 ## Monitoring
 * Nagios
-* [[Zabbix]]
+* [Zabbix](https://github.com/dirakx1/Zabbix)
 ### Task/Queue message management
-* [Rabbitmq](https://github.com/dirakx/Rabbitmq)
+* [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
 * Redis
 * [Celery](https://github.com/dirakx/Celery)
 ### Orchestration
