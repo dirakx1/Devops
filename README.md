@@ -11,7 +11,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ## Devops tools 
 ### Platforms
-* AWS
+* [AWS](https://github.com/dirakx1/AWS)
 * Openstack
 
 ## CI/CD
