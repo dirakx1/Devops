@@ -13,6 +13,7 @@ DevOps is a software development method that stresses communication, collaborati
 ### Platforms
 * [AWS](https://github.com/dirakx1/AWS)
 * Openstack
+* Eucalyptus
 
 ## CI/CD
 * Jenkins
@@ -33,6 +34,10 @@ DevOps is a software development method that stresses communication, collaborati
 * Ansible
 * Chef
 * Puppet
+### Cloud Orchestration
+* Terraform
+* CloudFormation
+
 ### Log management
 ### Containerization
 * [Docker](https://github.com/dirakx/Docker)
