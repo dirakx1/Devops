@@ -14,11 +14,11 @@ DevOps is a software development method that stresses communication, collaborati
 * [AWS](https://github.com/dirakx1/AWS)
 * Openstack
 * Eucalyptus
+* GCP
 
 ## CI/CD
 * [Jenkins](https://github.com/dirakx1/Jenkins)
 * Gitlab/Github pipelines
-* Vagrant
 
 ### Web servers
 * Nginx
@@ -26,6 +26,7 @@ DevOps is a software development method that stresses communication, collaborati
 ## Monitoring
 * Nagios
 * [Zabbix](https://github.com/dirakx1/Zabbix)
+* stackdriver for GCP
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
 * Redis
@@ -41,16 +42,20 @@ DevOps is a software development method that stresses communication, collaborati
 ## Container Orchestation
 * Docker swarm 
 * Kubernates
+* Nomad
 
 ### Log management
 * ELK 
+
 ### Containerization
 * [Docker](https://github.com/dirakx/Docker)
+
 ### Databases
 * [Postgres](https://github.com/dirakx/Postgres)
 * Mysql
 * [MSSQL](https://github.com/dirakx/Mssql)
 * [Mongodb](https://github.com/dirakx/Mongodb)
+
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx/Git)
 
