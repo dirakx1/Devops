@@ -31,15 +31,15 @@ DevOps is a software development method that stresses communication, collaborati
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
 * Redis
 * [Celery](https://github.com/dirakx/Celery)
-### Orchestation
+### Orchestration
 * Ansible
 * Chef
 * Puppet
-### Cloud Orchestation
+### Cloud Orchestration
 * Terraform
 * CloudFormation
 
-## Container Orchestation
+## Container Orchestration
 * Docker swarm 
 * Kubernates
 * Nomad
