@@ -17,24 +17,29 @@ DevOps is a software development method that stresses communication, collaborati
 * GCP
 
 ## CI/CD
-* [Jenkins](https://github.com/dirakx1/Jenkins)
+* [Jenkins](https://github.com/dirakx1/Jenkins) -Cloudbees
 * Gitlab/Github pipelines
+* Spinnaker
 
 ### Web servers
 * Nginx
 * Apache
+
 ## Monitoring
 * Nagios
 * [Zabbix](https://github.com/dirakx1/Zabbix)
 * stackdriver for GCP
+
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
 * Redis
 * [Celery](https://github.com/dirakx/Celery)
+
 ### Orchestration
 * Ansible
 * Chef
 * Puppet
+
 ### Cloud Orchestration
 * Terraform
 * CloudFormation
@@ -61,7 +66,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Microservices devops tools
 * https://www.consul.io/
- 
+* Istio  
 
 
 
