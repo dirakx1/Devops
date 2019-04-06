@@ -14,7 +14,7 @@ DevOps is a software development method that stresses communication, collaborati
 * [AWS](https://github.com/dirakx1/AWS)
 * Openstack
 * Eucalyptus
-* [GCP]
+* [GCP]()
 
 ## CI/CD
 * [Jenkins](https://github.com/dirakx1/Jenkins) -Cloudbees
