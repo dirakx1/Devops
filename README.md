@@ -51,6 +51,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Log management
 * ELK 
+* Splunk
 
 ### Containerization
 * [Docker](https://github.com/dirakx/Docker)
