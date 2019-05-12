@@ -28,7 +28,7 @@ DevOps is a software development method that stresses communication, collaborati
 ## Monitoring
 * Nagios
 * [Zabbix](https://github.com/dirakx1/Zabbix)
-* stackdriver for GCP
+* Stackdriver for GCP
 
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
