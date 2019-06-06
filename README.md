@@ -10,7 +10,7 @@ DevOps is a software development method that stresses communication, collaborati
 * Continuous Deployment (CD) is an extension to delivery extending deployment of new SW release into a existing network.
 
 
-## Devops tools 
+## Devops tools (Follow links to specific tools documentation) 
 ### Platforms
 * [AWS](https://github.com/dirakx1/AWS)
 * Openstack
