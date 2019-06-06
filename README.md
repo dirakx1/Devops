@@ -53,6 +53,9 @@ DevOps is a software development method that stresses communication, collaborati
 * ELK 
 * Splunk
 
+## Log statistics / graphics
+* grafana. 
+
 ### Containerization
 * [Docker](https://github.com/dirakx/Docker)
 
@@ -61,6 +64,7 @@ DevOps is a software development method that stresses communication, collaborati
 * Mysql
 * [MSSQL](https://github.com/dirakx/Mssql)
 * [Mongodb](https://github.com/dirakx/Mongodb)
+* Influxdb
 
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx/Git)
