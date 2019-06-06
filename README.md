@@ -1,4 +1,5 @@
 # Intro
+![](DevOps.png)
 
 DevOps is a software development method that stresses communication, collaboration, integration, automation, and measurement of cooperation between software developers and other information-technology (IT) professionals and operation.
 
