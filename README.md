@@ -47,8 +47,10 @@ DevOps is a software development method that stresses communication, collaborati
 
 ## Container Orchestration
 * Docker swarm 
-* [Kubernates](https://github.com/dirakx1/kubernates)
+* [Kubernetes](https://github.com/dirakx1/kubernates)
 * Nomad
+* Openshift
+* Rancher
 
 ### Log management
 * ELK 
