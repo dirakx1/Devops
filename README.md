@@ -76,6 +76,11 @@ DevOps is a software development method that stresses communication, collaborati
 * https://www.consul.io/
 * Istio  
 
+### Other tools 
+* Sonarqube
+* Nexus
+
+
 
 
 
