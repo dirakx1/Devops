@@ -36,6 +36,10 @@ DevOps is a software development method that stresses communication, collaborati
 * Redis
 * [Celery](https://github.com/dirakx/Celery)
 
+### Cache management
+* memcached
+* memorystore
+
 ### Orchestration
 * Ansible
 * Chef
@@ -69,10 +73,6 @@ DevOps is a software development method that stresses communication, collaborati
 * [Mongodb](https://github.com/dirakx/Mongodb)
 * Influxdb
 
-### Cache management
-* memcached
-* memorystore
-
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx/Git)
 
@@ -83,12 +83,3 @@ DevOps is a software development method that stresses communication, collaborati
 ### Other tools 
 * Sonarqube (Code quality)
 * Nexus (Artifact repository)
-
-
-
-
-
-
-
-
-
