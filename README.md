@@ -69,6 +69,10 @@ DevOps is a software development method that stresses communication, collaborati
 * [Mongodb](https://github.com/dirakx/Mongodb)
 * Influxdb
 
+### Cache management
+* memcached
+* memorystore
+
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx/Git)
 
@@ -77,8 +81,8 @@ DevOps is a software development method that stresses communication, collaborati
 * Istio  
 
 ### Other tools 
-* Sonarqube
-* Nexus
+* Sonarqube (Code quality)
+* Nexus (Artifact repository)
 
 
 
