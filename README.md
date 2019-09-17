@@ -83,3 +83,7 @@ DevOps is a software development method that stresses communication, collaborati
 ### Other tools 
 * Sonarqube (Code quality)
 * Nexus (Artifact repository)
+
+### SRE definitions
+
+* service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)
