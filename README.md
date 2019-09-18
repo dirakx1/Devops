@@ -57,11 +57,16 @@ DevOps is a software development method that stresses communication, collaborati
 * Rancher
 
 ### Log management
-* ELK 
+* ELK stack 
+Elastic searchfor indexing and storage of logs
+Kibana for analysis and visualization
+Logstash for data agregattion and processing. 
+Beats: data collection 
 * Splunk
 
 ## Log statistics / graphics
 * grafana. 
+* sctackdriver (GCP)
 
 ### Containerization
 * [Docker](https://github.com/dirakx/Docker)
@@ -84,6 +89,6 @@ DevOps is a software development method that stresses communication, collaborati
 * Sonarqube (Code quality)
 * Nexus (Artifact repository)
 
-### SRE definitions
+### Devops-SRE definitions
 
 * service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)
