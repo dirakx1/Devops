@@ -60,15 +60,17 @@ DevOps is a software development method that stresses communication, collaborati
 * Rancher
 
 ### Log management
-* ELK stack: 
+* ELK stack 
+
 ** Elastic search for indexing and storage of logs
 ** Kibana for analysis and visualization
 ** Logstash for data agregattion and processing. 
 ** Beats: data collection 
+
 * Splunk
 
 ## Log statistics / graphics
-* grafana. 
+* Grafana. 
 * sctackdriver (GCP)
 
 ### Containerization
