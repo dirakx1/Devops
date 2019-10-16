@@ -41,7 +41,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Cache management
 * memcached
-* memorystore
+* memorystore (redis manejado) 
 
 ### Orchestration
 * Ansible
