@@ -90,9 +90,23 @@ DevOps is a software development method that stresses communication, collaborati
 * Istio  
 
 ### Other tools 
-* Sonarqube (Code quality)
+#### Sonarqube (Code quality)
+
+##### Usage 
+
+* Create new project (maven / gradle) 
+* Provide mvn / gradle configurations for projects f.e:
+
+```
+mvn sonar:sonar \
+ -Dsonar.projectKey=test \
+ -Dsonar.host.url=http://35.237.177.50 \
+ -Dsonar.login=4c760afc00ef9479112699dd1865c57514b63ca3
 * Nexus (Artifact repository)
-* [Jmeter](https://github.com/dirakx/Jmeter)/Gatlin (Performance / load testing)
+
+
+```
+* Jmeter/Gatlin (Performance / load testing)
 
 ### Devops-SRE definitions
 
