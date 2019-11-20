@@ -100,8 +100,8 @@ DevOps is a software development method that stresses communication, collaborati
 ```
 mvn sonar:sonar \
  -Dsonar.projectKey=test \
- -Dsonar.host.url=http://35.237.177.50 \
- -Dsonar.login=4c760afc00ef9479112699dd1865c57514b63ca3
+ -Dsonar.host.url=http://yyy.yyy.yyy.yyy \
+ -Dsonar.login=tokentokentokentookeneene
 * Nexus (Artifact repository)
 
 
