@@ -102,11 +102,9 @@ mvn sonar:sonar \
  -Dsonar.projectKey=test \
  -Dsonar.host.url=http://yyy.yyy.yyy.yyy \
  -Dsonar.login=tokentokentokentookeneene
-* Nexus (Artifact repository)
-
-
 ```
 * Jmeter/Gatlin (Performance / load testing)
+* Nexus (Artifact repository)
 
 ### Devops-SRE definitions
 
