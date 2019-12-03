@@ -59,15 +59,25 @@ DevOps is a software development method that stresses communication, collaborati
 ### Cloud Orchestration
 * [Terraform](https://github.com/dirakx1/Terraform)
 * CloudFormation
+* Pullumi
 
 ## Container Orchestration
-* Docker swarm 
+
 * [Kubernetes](https://github.com/dirakx1/kubernates)
+* Docker swarm 
 * Nomad
 * Openshift
 * Rancher
+* Amazon Elastic Container Service
+Amazon Elastic Container Service (ECS) is a hosted service provided by Amazon Web Services (AWS) to run Docker containers at scale on its infrastructure.
+* Azure Container Instances
+Azure Container Instance (ACI) is a basic container orchestration service provided by Microsoft Azure.
+* Azure Service Fabric
+Azure Service Fabric is an open source container orchestrator provided by Microsoft Azure.
+* Marathon
 
 ### Log management
+
 * ELK stack:
 ```
 *Elastic search for indexing and storage of logs
@@ -84,20 +94,21 @@ DevOps is a software development method that stresses communication, collaborati
 * stackdriver (GCP)
 
 ### Containerization
+
 * [Docker](https://github.com/dirakx/Docker)
 
 ### Databases
 * [Postgres](https://github.com/dirakx/Postgres)
 * Mysql
 * [MSSQL](https://github.com/dirakx/Mssql)
-* [Mongodb](https://github.com/dirakx/Mongodb)
+* [Mongodb](https://github.com/dirakx/Mongodb)(NoSql)
 * Influxdb
 
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx/Git)
 
 ### Microservices devops tools
-* https://www.consul.io/
+* https://www.consul.io/ (Multicloud)
 * Istio  
 
 ### Other tools 
