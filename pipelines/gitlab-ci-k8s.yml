@@ -1,0 +1,54 @@
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_VERSION: 19.03.0
+
+image: docker:$DOCKER_VERSION
+services:
+  - docker:$DOCKER_VERSION-dind
+
+stages:
+  - build
+  - package
+  - deploy
+
+maven-build:
+  image: maven:3-jdk-8
+  variables:
+    VERSION: $(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+  stage: build
+  script:
+    - echo "$MAVEN_SETTINGS" > settings.xml
+    - mvn -s settings.xml --batch-mode install
+    - mkdir -p .env
+    - echo $(mvn help:evaluate -Dexpression=project.version -q -DforceStdout) > .env/version
+  artifacts:
+    paths:
+      - target/*.jar
+      - .env/
+
+docker-build:
+  stage: package
+  script:
+    - docker build -t dockerregistry:latest .
+    - docker build -t dockerregistry:$(cat .env/version) .
+    - docker login -u _json_key -p "$SERVICE_ACCOUNT" https://dockerregistry
+    - docker push dockerregistry:latest
+    - docker push dockerregistry:$(cat .env/version)
+  only:
+    - master
+    - develop
+
+k8s-deploy:
+  image: google/cloud-sdk
+  stage: deploy
+  script:
+    - echo "$SERVICE_ACCOUNT" > key.json
+    - gcloud auth activate-service-account --key-file key.json
+    - gcloud config set compute/zone us-central1-a
+    - gcloud config set project PROJECT
+    - gcloud container clusters get-credentials PROJECT
+    - kubectl apply -f .k8s/deployment.yml
+    - kubectl set dockerregistry=dockerregistry:$(cat .env/version)
+  only:
+    - master
+    - develop

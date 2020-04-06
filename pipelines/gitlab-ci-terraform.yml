@@ -1,0 +1,82 @@
+# Official image for Hashicorp's Terraform. It uses light image which is Alpine
+# based as it is much lighter.
+image:
+  name: hashicorp/terraform:light
+  entrypoint:
+  - '/usr/bin/env'
+  - 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+
+# Default output file for Terraform plan
+variables:
+  PLAN: plan.tfplan
+
+cache:
+  paths:
+  - terraform/.terraform
+  - terraform-proj/.terraform
+
+before_script:
+
+- cd terraform
+- rm -rf .terraform
+- terraform --version
+- mkdir -p ./creds
+- cat  $TERRAFORMSERVICEACCOUNT > ./creds/serviceaccount.json
+- cd ../terraform-proj
+- rm -rf .terraform
+- mkdir -p ./creds
+- cat  $TERRAFORMSERVICEACCOUNT > ./creds/serviceaccount.json
+
+
+stages:
+
+- validate
+- plan
+- apply
+
+
+validate:
+  stage: validate
+  script:
+  - cd ../terraform
+  - terraform init -backend=true -input=false -backend-config="credentials=./creds/serviceaccount.json" -backend-config="bucket=tf-state-dev-orchex" -backend-config="prefix=terraform/state"
+    && terraform validate
+  - cd ../terraform-proj
+  - terraform init -backend=true -input=false -backend-config="credentials=./creds/serviceaccount.json" -backend-config="bucket=tf-state-dev-orchex" -backend-config="prefix=terraform/state"
+    && terraform validate
+
+  only:
+  - develop
+
+plan:
+  stage: plan
+  script:
+  - cd ../terraform
+  - terraform init -backend=true -input=false -backend-config="credentials=./creds/serviceaccount.json" -backend-config="bucket=tf-state-dev-orchex" -backend-config="prefix=terraform/state"
+    && terraform plan  -var-file=gitlab.tfvars -input=false -refresh=true -out=$PLAN
+  - cd ../terraform-proj
+  - terraform init -backend=true -input=false -backend-config="credentials=./creds/serviceaccount.json" -backend-config="bucket=tf-state-dev-orchex" -backend-config="prefix=terraform/state"
+    && terraform plan  -var-file=gitlab.tfvars -input=false -refresh=true -out=$PLAN
+
+  dependencies:
+  - validate
+  artifacts:
+    name: plan
+    paths:
+    - $PLAN
+  only:
+  - develop
+
+# Separate apply job for manual launching Terraform as it can be destructive
+# action.
+apply:
+  stage: apply
+  environment:
+    name: production
+  script:
+  - terraform apply -input=false $PLAN
+  dependencies:
+  - plan
+  when: manual
+  only:
+  - master
