@@ -131,3 +131,7 @@ mvn sonar:sonar \
 ### Devops-SRE definitions
 
 * service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)
+
+### Questions
+
+* https://medium.com/better-programming/top-8-devops-interview-questions-and-answers-9120f554d1b9
