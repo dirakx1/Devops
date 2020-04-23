@@ -49,12 +49,12 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Cache management
 * memcached
-* memorystore (redis manejado) 
+* memorystore (redis manejado en GCP) 
 
 ### Orchestration
 * Ansible
 * Chef
-* Puppet
+* Puppet - Puppet bolt
 
 ### Cloud Orchestration
 * [Terraform](https://github.com/dirakx1/Terraform)
@@ -82,15 +82,15 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 ```
 *Elastic search for indexing and storage of logs
 *Kibana for analysis and visualization
-*Logstash for data agregattion and processing. 
+*Logstash for data agregation and processing. 
 *Beats: data collection 
 ```
-
 * Splunk
 * Stackdriver(https://cloud.google.com/stackdriver/)
 
 ## Log statistics / graphics
 * Grafana. 
+* Kibana
 * stackdriver (GCP)
 
 ### Containerization
@@ -112,6 +112,7 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * Istio  
 
 ### Other tools 
+
 #### Sonarqube (Code quality)
 
 ##### Usage 
