@@ -45,7 +45,7 @@ DevOps is a software development method that stresses communication, collaborati
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
 * Redis
-* [Celery](https://github.com/dirakx/Celery)
+* [Celery](https://github.com/dirakx1/Celery)
 
 ### Cache management
 * memcached
@@ -54,7 +54,7 @@ DevOps is a software development method that stresses communication, collaborati
 ### Orchestration
 * Ansible
 * Chef
-* [Puppet](https://github.com/dirakx/Puppet) - Puppet bolt
+* [Puppet](https://github.com/dirakx1/Puppet) - Puppet bolt
 
 ### Cloud Orchestration
 * [Terraform](https://github.com/dirakx1/Terraform)
@@ -63,7 +63,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ## Container Orchestration
 
-* [Kubernetes](https://github.com/dirakx1/kubernates)
+* [Kubernetes](https://github.com/dirakx1/kubernetes)
 * Docker swarm 
 * Nomad
 * Openshift
