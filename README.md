@@ -54,7 +54,7 @@ DevOps is a software development method that stresses communication, collaborati
 ### Orchestration
 * Ansible
 * Chef
-* Puppet - Puppet bolt
+* [Puppet](https://github.com/dirakx/Puppet) - Puppet bolt
 
 ### Cloud Orchestration
 * [Terraform](https://github.com/dirakx1/Terraform)
