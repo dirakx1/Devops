@@ -41,6 +41,7 @@ DevOps is a software development method that stresses communication, collaborati
 * Nagios
 * [Zabbix](https://github.com/dirakx1/Zabbix)
 * Stackdriver for GCP
+* AWS cloudwatch
 
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
@@ -113,6 +114,8 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 
 ### Security
 * Vault (Client-server application to store secrets and sensitive data)
+* Google KMS
+* Amazon secrets manager
 
 
 
