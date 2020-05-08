@@ -112,7 +112,8 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * Istio  
 
 ### Security
-* Vault 
+* Vault (Client-server application to store secrets and sensitive data)
+
 
 
 
