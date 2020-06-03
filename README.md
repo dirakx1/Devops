@@ -23,7 +23,7 @@ DevOps is a software development method that stresses communication, collaborati
 * Openstack
 * [GCP](https://github.com/dirakx1/GCP)
 * alibaba cloud
-* Azure
+* [Azure](https://github.com/dirakx1/Azure)
 
 ## CI/CD
 * [Jenkins](https://github.com/dirakx1/Jenkins) -Cloudbees
@@ -41,7 +41,7 @@ DevOps is a software development method that stresses communication, collaborati
 * Nagios
 * [Zabbix](https://github.com/dirakx1/Zabbix)
 * Stackdriver for GCP
-* AWS cloudwatch
+* AWS Cloudwatch
 
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
