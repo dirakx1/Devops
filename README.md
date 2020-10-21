@@ -145,3 +145,6 @@ mvn sonar:sonar \
 ### Questions
 
 * https://medium.com/better-programming/top-8-devops-interview-questions-and-answers-9120f554d1b9
+
+### Kpis
+* https://phoenixnap.com/blog/devops-metrics-kpis
