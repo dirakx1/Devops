@@ -96,13 +96,13 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 
 ### Containerization
 
-* [Docker](https://github.com/dirakx/Docker)
+* [Docker](https://github.com/dirakx1/Docker)
 
 ### Databases
-* [Postgres](https://github.com/dirakx/Postgres)
+* [Postgres](https://github.com/dirakx1/Postgres)
 * Mysql
-* [MSSQL](https://github.com/dirakx/Mssql)
-* [Mongodb](https://github.com/dirakx/Mongodb)(NoSql)
+* [MSSQL](https://github.com/dirakx1/Mssql)
+* [Mongodb](https://github.com/dirakx1/Mongodb)(NoSql)
 * Influxdb
 
 ### Version control
@@ -145,6 +145,7 @@ mvn sonar:sonar \
 ### Questions
 
 * https://medium.com/better-programming/top-8-devops-interview-questions-and-answers-9120f554d1b9
+* [Devops-questions](https://github.com/dirakx1/Devops-questions)
 
 ### Kpis
 * https://phoenixnap.com/blog/devops-metrics-kpis
