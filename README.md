@@ -118,8 +118,6 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * Amazon secrets manager
 
 
-
-
 ### Other tools 
 
 #### Sonarqube (Code quality)
@@ -145,7 +143,7 @@ mvn sonar:sonar \
 ### Questions
 
 * https://medium.com/better-programming/top-8-devops-interview-questions-and-answers-9120f554d1b9
-* [Devops-questions](https://github.com/dirakx1/Devops-questions)
+* [Devops-questions](https://github.com/dirakx1/Devops/blob/master/Devops-questions.md)
 
 ### Kpis
 * https://phoenixnap.com/blog/devops-metrics-kpis
