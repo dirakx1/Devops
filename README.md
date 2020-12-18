@@ -106,7 +106,7 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * Influxdb
 
 ### Version control
-* [Git(Gitlab/Github)](https://github.com/dirakx/Git)
+* [Git(Gitlab/Github)](https://github.com/dirakx1/Git)
 
 ### Microservices devops tools
 * https://www.consul.io/ (Multicloud)
@@ -135,6 +135,9 @@ mvn sonar:sonar \
 ```
 * Jmeter/Gatlin (Performance / load testing)
 * Nexus (Artifact repository)
+
+#### Packer
+* [Packer](https://github.com/dirakx1/Packer)
 
 ### Devops-SRE definitions
 
