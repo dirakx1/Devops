@@ -147,3 +147,6 @@ mvn sonar:sonar \
 
 ### Kpis
 * https://phoenixnap.com/blog/devops-metrics-kpis
+
+### Other resources
+* https://www.scaledagileframework.com/accelerating-flow-with-devsecops-and-the-software-factory/?es_p=13118607
