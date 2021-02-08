@@ -27,13 +27,12 @@ DevOps is a software development method that stresses communication, collaborati
 
 ## CI/CD
 * [Jenkins](https://github.com/dirakx1/Jenkins) -Cloudbees
-* Gitlab/Github pipelines
+* Gitlab/Github pipelines, actions
 * Spinnaker
 * Octupus
 * TeamCity
 
 ### Web servers
-
 * Nginx
 * Apache
 
@@ -116,7 +115,7 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * Vault (Client-server application to store secrets and sensitive data)
 * Google KMS
 * Amazon secrets manager
-
+* Guardtrial 
 
 ### Other tools 
 
@@ -136,8 +135,6 @@ mvn sonar:sonar \
 * Jmeter/Gatlin (Performance / load testing)
 * Nexus (Artifact repository)
 
-#### Packer
-* [Packer](https://github.com/dirakx1/Packer)
 
 ### Devops-SRE definitions
 
@@ -148,8 +145,12 @@ mvn sonar:sonar \
 * https://medium.com/better-programming/top-8-devops-interview-questions-and-answers-9120f554d1b9
 * [Devops-questions](https://github.com/dirakx1/Devops/blob/master/Devops-questions.md)
 
-### Kpis
+### KPIs
 * https://phoenixnap.com/blog/devops-metrics-kpis
+* Deployment frequency - are you deploying quarterly, monthly, weekly, hourly?
+* Lead Time to Changes - backlog to sprint to deploy: years, months, weeks, days?
+* Mean Time to Recovery - can you roll back or redeploy in weeks, days, hours, minutes?
+* Change Failure Rate - do your deploys succeed rarely, sometimes, mostly, usually?
 
 ### Other resources
 * https://www.scaledagileframework.com/accelerating-flow-with-devsecops-and-the-software-factory/?es_p=13118607
