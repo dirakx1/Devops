@@ -53,6 +53,12 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Orchestration
 * Ansible
+Changes can be made and used in a configuration file which will be searched for in the following order:
+* ANSIBLE_CONFIG (environment variable if set)
+* ansible.cfg (in the current directory)
+* ~/.ansible.cfg (in the home directory)
+* /etc/ansible/ansible.cfg
+
 * Chef
 * [Puppet](https://github.com/dirakx1/Puppet) - Puppet bolt
 
