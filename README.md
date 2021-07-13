@@ -52,12 +52,7 @@ DevOps is a software development method that stresses communication, collaborati
 * memorystore (redis manejado en GCP) 
 
 ### Orchestration
-* [Ansible](https://github.com/dirakx1/Ansible): Changes can be made and used in a configuration file which will be searched for in the following order:
-** ANSIBLE_CONFIG (environment variable if set)
-** ansible.cfg (in the current directory)
-** ~/.ansible.cfg (in the home directory)
-** /etc/ansible/ansible.cfg
-
+* [Ansible](https://github.com/dirakx1/Ansible)
 * Chef
 * [Puppet](https://github.com/dirakx1/Puppet) - Puppet bolt
 
