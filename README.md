@@ -15,7 +15,7 @@ DevOps is a software development method that stresses communication, collaborati
 ## Foundamentals
 
 * SQL 
-* Networking
+* Networking (https://mxtoolbox.com/subnetcalculator.aspx)
 * Linux admin 
 
 ### Platforms
