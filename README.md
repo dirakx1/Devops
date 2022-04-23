@@ -35,12 +35,17 @@ DevOps is a software development method that stresses communication, collaborati
 ### Web servers
 * Nginx
 * Apache
+* 
+#### Https management
+* Letsencrypt
+* AWS certificate manager 
 
 ## Monitoring
 * Nagios
 * [Zabbix](https://github.com/dirakx1/Zabbix)
 * Stackdriver for GCP
 * AWS Cloudwatch
+* Datadog 
 
 ### Task/Queue message management
 * [Rabbitmq](https://github.com/dirakx1/Rabbitmq)
@@ -115,7 +120,8 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * Vault (Client-server application to store secrets and sensitive data)
 * Google KMS
 * Amazon secrets manager
-* Guardtrial 
+* Guardtrial for AWS 
+* Sync Security in infrastructure as a code.  
 
 ### Other tools 
 
@@ -138,7 +144,7 @@ mvn sonar:sonar \
 
 ### Devops-SRE definitions
 
-* service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)
+* Service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)
 
 ### Questions
 
