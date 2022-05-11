@@ -146,10 +146,11 @@ mvn sonar:sonar \
 
 * Service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)
 
-### Branch/repo managment
+### Branch/repo management
 
 * Monorepo (rushjs pnpm)
 * Polyrepo
+* gitflow
 
 ### Questions
 
