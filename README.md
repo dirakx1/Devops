@@ -31,6 +31,8 @@ DevOps is a software development method that stresses communication, collaborati
 * Spinnaker
 * Octupus
 * TeamCity
+* Argo CD (for kubernetes)  
+* Drone
 
 ### Web servers
 * Nginx
@@ -113,7 +115,7 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * [Git(Gitlab/Github)](https://github.com/dirakx1/Git)
 
 ### Microservices devops tools
-* https://www.consul.io/ (Multicloud)
+* https://www.consul.io/ (Hashicorp Multicloud)
 * Istio  
 
 ### Security
@@ -149,8 +151,8 @@ mvn sonar:sonar \
 ### Branch/repo management
 
 * Monorepo:
-** Rushjs, babel(python based apps lile tensorflow), buck (faster build times), lerna(for js applications)
-* Polyrepo
+* * Rushjs, babel(python based apps lile tensorflow), buck (faster build times), lerna(for js applications)
+* Polyrepo?
 * GitFlow
 
 ### Questions
