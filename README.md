@@ -149,9 +149,9 @@ mvn sonar:sonar \
 ### Branch/repo management
 
 * Monorepo:
-** rushjs, babel(python based apps lile tensorflow), buck (faster build times), lerna(for js applications
+** Rushjs, babel(python based apps lile tensorflow), buck (faster build times), lerna(for js applications)
 * Polyrepo
-* gitflow
+* GitFlow
 
 ### Questions
 
