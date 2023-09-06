@@ -33,14 +33,15 @@ DevOps is a software development method that stresses communication, collaborati
 * TeamCity
 * Argo CD (for kubernetes)  
 * Drone
+* Concourse
 
 ### Web servers
 * Nginx
 * Apache
-* 
+  
 #### Https management
 * Letsencrypt
-* AWS certificate manager 
+* AWS certificate manager (route 53)   
 
 ## Monitoring
 * Nagios
@@ -56,7 +57,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Cache management
 * memcached
-* memorystore (redis manejado en GCP) 
+* memorystore (managed redis on GCP) 
 
 ### Orchestration
 * [Ansible](https://github.com/dirakx1/Ansible)
@@ -67,11 +68,12 @@ DevOps is a software development method that stresses communication, collaborati
 * [Terraform](https://github.com/dirakx1/Terraform)
 * CloudFormation
 * Pullumi
+* AWS CDK 
 
 ## Container Orchestration
 
 * [Kubernetes](https://github.com/dirakx1/kubernetes)
-* Docker swarm 
+* Docker compose - swarm  
 * Nomad
 * Openshift
 * Rancher
