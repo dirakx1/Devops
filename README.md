@@ -79,12 +79,9 @@ DevOps is a software development method that stresses communication, collaborati
 * Nomad
 * Openshift
 * Rancher
-* Amazon Elastic Container Service
-Amazon Elastic Container Service (ECS) is a hosted service provided by Amazon Web Services (AWS) to run Docker containers at scale on its infrastructure.
-* Azure Container Instances
-Azure Container Instance (ACI) is a basic container orchestration service provided by Microsoft Azure.
-* Azure Service Fabric
-Azure Service Fabric is an open source container orchestrator provided by Microsoft Azure.
+* Amazon Elastic Container Service (ECS) is a hosted service provided by Amazon Web Services (AWS) to run Docker containers at scale on its infrastructure.
+* Azure Container Instances (ACI) is a basic container orchestration service provided by Microsoft Azure.
+* Azure Service Fabric is an open source container orchestrator provided by Microsoft Azure.
 * Marathon
 
 ### Log management
@@ -114,6 +111,7 @@ Azure Service Fabric is an open source container orchestrator provided by Micros
 * [MSSQL](https://github.com/dirakx1/Mssql)
 * [Mongodb](https://github.com/dirakx1/Mongodb)(NoSql)
 * Influxdb
+* Dynamodb (grpah db) 
 
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx1/Git)
