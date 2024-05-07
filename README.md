@@ -67,8 +67,11 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Cloud Orchestration
 * [Terraform](https://github.com/dirakx1/Terraform)
-#### Terrafor tools
-* tfsec, sentibel, atlantis, infracost, tflint..
+
+#### Terraform tools
+* tfsec, sentinel, atlantis, infracost, tflint..
+
+#### IAC tools
 * CloudFormation
 * Pullumi
 * AWS CDK 
