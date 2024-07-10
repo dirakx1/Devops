@@ -74,7 +74,9 @@ DevOps is a software development method that stresses communication, collaborati
 #### IAC tools
 * CloudFormation
 * Pullumi
-* AWS CDK 
+* AWS CDK
+* AWS SAM (Serverless application model)
+* Serverless framework (multicloud) 
 
 ## Container Orchestration
 
