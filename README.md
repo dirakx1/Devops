@@ -131,7 +131,11 @@ DevOps is a software development method that stresses communication, collaborati
 * Google KMS
 * Amazon secrets manager
 * Guardtrial for AWS 
-* Sync Security in infrastructure as a code.  
+* Sync Security in infrastructure as a code.
+
+## SRE tools
+* Feature flags, Feature togles: Petri, tooglz, flip, launchdarkly, split.io
+* Self service automation 
 
 ### Other tools 
 
