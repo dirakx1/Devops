@@ -58,6 +58,7 @@ DevOps is a software development method that stresses communication, collaborati
 
 ### Cache management
 * memcached
+* redis
 * memorystore (managed redis on GCP) 
 
 ### Orchestration
@@ -74,7 +75,7 @@ DevOps is a software development method that stresses communication, collaborati
 #### IAC tools
 * CloudFormation
 * Pullumi
-* AWS CDK
+* AWS CDK (copilot? ) 
 * AWS SAM (Serverless application model)
 * Serverless framework (multicloud) 
 
@@ -117,7 +118,7 @@ DevOps is a software development method that stresses communication, collaborati
 * [MSSQL](https://github.com/dirakx1/Mssql)
 * [Mongodb](https://github.com/dirakx1/Mongodb)(NoSql)
 * Influxdb
-* Dynamodb (grpah db) 
+* Dynamodb (Nosql db, similar to mongo) 
 
 ### Version control
 * [Git(Gitlab/Github)](https://github.com/dirakx1/Git)
